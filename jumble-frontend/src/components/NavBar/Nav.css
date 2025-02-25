@@ -1,0 +1,11 @@
+nav{
+        background-color: rgb(74, 255, 195);
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        color: #003366;
+}
+

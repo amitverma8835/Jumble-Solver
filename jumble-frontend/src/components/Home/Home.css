@@ -1,0 +1,97 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .box {
+    background-color: rgb(214, 214, 187);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .box:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); 
+  }
+  
+  
+  .home-header {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d9534f;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .jumble-word {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #7716d7;
+  }
+  
+  input {
+    padding: 12px;
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  input:focus {
+    border-color: #555;
+  }
+  
+  button {
+    padding: 8px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .answer {
+    font-size: 1rem;
+    color: #22b046;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 480px) {
+    .box {
+      padding: 20px;
+    }
+  
+    .home-header {
+      font-size: 1.2rem;
+    }
+  
+    input,
+    button {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  
